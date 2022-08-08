@@ -1,13 +1,94 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+ * {
+   box-sizing: border-box;
+ }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+ body {
+   background-image: url('https://i.pinimg.com/originals/68/dc/44/68dc44b58a617bb22e56c0ea6f5b43c6.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 75vh;
+ }
+
+ .container_div {
+   border: 3px solid black;
+   width: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10rem;
+ }
+
+ .input_field_div {
+   display: grid;
+   grid-template-rows: 7.11rem;
+ }
+
+ .input_field_div Input {
+   background-color: lightgray;
+   color: white;
+   width: 41.18rem;
+   height: 7rem;
+ }
+
+ .input_field_div ::placeholder {
+   text-align: right;
+   font-size: 3.5rem;
+   color: black;
+ }
+
+ .input_field_div :last-of-type {
+   text-align: right;
+   font-size: 3.5rem;
+   color: black;
+ }
+
+ .operator_div {
+   display: grid;
+   grid-template-rows: repeat(1, 5.98rem);
+   grid-template-columns: repeat(6, 6.86rem);
+ }
+
+ .operator_div Button {
+   background-color: black;
+   color: white;
+   width: 6.85rem;
+   height: 6rem;
+   font-size: 2rem;
+ }
+
+ .digits_div {
+   display: grid;
+   grid-template-columns: repeat(3, 13.72rem);
+ }
+
+ .digits_div Button {
+   background-color: black;
+   color: white;
+   width: 13.7rem;
+   height: 8rem;
+   font-size: 2rem;
+ }
+
+ .operator_row Button:hover {
+   background-color: darkgray;
+   color: black;
+ }
+
+ .digits_row Button:hover {
+   background-color: darkgray;
+   color: black;
+ }
+
+ .clear_btn:hover {
+   background-color: red;
+   color: black;
+ }
+
+ .equalto_btn:hover {
+   background-color: green;
+   color: black;
+ }
+
+ .back_btn:hover{
+  background-color: orange;
+  color: black;
+ }
