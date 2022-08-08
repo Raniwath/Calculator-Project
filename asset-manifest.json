@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Raniwath/Calculator-Project/static/css/main.344b04a8.css",
+    "main.js": "/Raniwath/Calculator-Project/static/js/main.a3b12305.js",
+    "index.html": "/Raniwath/Calculator-Project/index.html",
+    "main.344b04a8.css.map": "/Raniwath/Calculator-Project/static/css/main.344b04a8.css.map",
+    "main.a3b12305.js.map": "/Raniwath/Calculator-Project/static/js/main.a3b12305.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.344b04a8.css",
+    "static/js/main.a3b12305.js"
+  ]
+}
