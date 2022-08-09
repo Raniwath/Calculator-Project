@@ -6,7 +6,6 @@
    background-image: url('https://i.pinimg.com/originals/68/dc/44/68dc44b58a617bb22e56c0ea6f5b43c6.jpg');
    background-repeat: no-repeat;
    background-size: cover;
-   height: 75vh;
  }
 
  .container_div {
@@ -14,7 +13,7 @@
    width: fit-content;
    margin-left: auto;
    margin-right: auto;
-   margin-top: 10rem;
+   margin-top: 6rem;
  }
 
  .input_field_div {

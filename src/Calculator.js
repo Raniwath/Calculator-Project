@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Button, Input } from 'antd'
-import 'antd/dist/antd.min.css'
+import 'antd/dist/antd.css'
 import './index.css'
 
 
@@ -8,14 +8,12 @@ export default function Calculator() {
 
 
     const [result, setResult] = useState("");
-    // const [ color, setColor ] = useState("white")
 
 
     // to render the value together
     const click_btn = (event) => {
         setResult(result + event.currentTarget.name)
           console.log(event.currentTarget.name);
-        //   setColor('black')
     }
 
 
