@@ -3,9 +3,7 @@
  }
 
  body {
-   background-image: url('https://i.pinimg.com/originals/68/dc/44/68dc44b58a617bb22e56c0ea6f5b43c6.jpg');
-   background-repeat: no-repeat;
-   background-size: cover;
+   background-color: rgba(36, 80, 57, 0.784);
  }
 
  .container_div {
@@ -87,7 +85,7 @@
    color: black;
  }
 
- .back_btn:hover{
-  background-color: orange;
-  color: black;
+ .back_btn:hover {
+   background-color: orange;
+   color: black;
  }

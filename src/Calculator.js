@@ -13,7 +13,7 @@ export default function Calculator() {
     // to render the value together
     const click_btn = (event) => {
         setResult(result + event.currentTarget.name)
-          console.log(event.currentTarget.name);
+        console.log(event.currentTarget.name);
     }
 
 
@@ -45,7 +45,7 @@ export default function Calculator() {
                 </div>
 
 
-              {/* name attribute is used to render the value on the input field */}
+                {/* name attribute is used to render the value on the input field */}
                 <div className="operator_div">
                     <Button onClick={clear_btn} className='clear_btn'> Clear </Button>
 
